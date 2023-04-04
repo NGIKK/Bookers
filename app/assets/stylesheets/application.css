@@ -35,7 +35,12 @@ h1{
   margin: 20px 0;
 }
 
-p{
+.top p{
+  font-size: 13px;
+  margin: 33px;
+}
+
+.show p{
   font-size: 13px;
   margin: 33px;
 }
@@ -63,7 +68,7 @@ h2{
 }
 
 label{
-  display: block;
+  display: table;
 }
 
 .field{
@@ -72,4 +77,32 @@ label{
 
 .text-success{
   color: green;
+}
+
+.errors{
+  width: 450px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.errors p{
+  margin: none;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  background-color: #c00;
+  color: #fff;
+  padding: 3px;
+}
+
+.errors ul{
+  display: block;
+  margin: 30px;
+}
+
+.field_with_errors{
+  display: table;
+  background-color: red;
+  padding: 2px;
 }
